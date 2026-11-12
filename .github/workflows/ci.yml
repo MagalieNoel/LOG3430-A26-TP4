@@ -33,5 +33,4 @@ jobs:
         run: encoder --help
 
       - name: Run tests
-        shell: powershell
         run: pytest
