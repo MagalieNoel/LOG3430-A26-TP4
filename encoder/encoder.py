@@ -80,7 +80,7 @@ def exec_convert(input_file, output_file, from_encoding: str, to_encoding: str) 
                                '--from-code', from_encoding,
                                '--to-code', to_encoding,
                                input_file,
-                               '|', output_file], check=True)
+                               '--output', output_file], check=True)
 
 
 def convert(input_file, output_file, from_encoding, to_encoding):
